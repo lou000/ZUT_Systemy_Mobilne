@@ -2,4 +2,5 @@
     <string name="app_name">Lab1</string>
     <string name="roll_button_label">ROLL</string>
     <string name="increment_text">INCREMENT</string>
+    <string name="reset_text">reset</string>
 </resources>
