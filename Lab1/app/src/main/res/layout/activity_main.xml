@@ -16,17 +16,17 @@
         android:textSize="30sp"
         android:text="ROLL THE DICE!" />
 
-<!--    <Button-->
-<!--        android:id="@+id/roll_button"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_gravity="center_horizontal"-->
-<!--        android:text="@string/roll_button_label" />-->
-<!--    <Button-->
-<!--        android:id="@+id/plus_one"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_gravity="center_horizontal"-->
-<!--        android:text="@string/increment_text" />-->
+        <Button
+            android:id="@+id/roll_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/roll_button_label" />
+        <Button
+            android:id="@+id/plus_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/increment_text" />
 
 </LinearLayout>
