@@ -48,7 +48,7 @@ class GameWonFragment : Fragment() {
             .putExtra(Intent.EXTRA_TEXT, getString(R.string.share_success_text, args.numCorrect, args.numQuestions))
         return shareIntent
     }
-    
+
     private fun shareSuccess() {
         startActivity(getShareIntent())
     }
