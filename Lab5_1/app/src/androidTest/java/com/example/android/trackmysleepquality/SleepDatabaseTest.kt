@@ -158,7 +158,6 @@ class SleepDatabaseTest {
         // not required
     }
 
-    // why is this so fucking hard? i hate java with passion
     private fun <T> getValueSync(lData : LiveData<T>): T {
         var data: T? = null
         val latch = CountDownLatch(1)
